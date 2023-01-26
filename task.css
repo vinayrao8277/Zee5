@@ -1,0 +1,126 @@
+*{
+    background-color: black;
+}
+    #outer{
+    border: 2px solid red;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#inner{
+/* border: 2px solid blue; */
+display: inline-flex;
+justify-content: space-evenly;
+width:900px;
+color: black;
+}
+.man{
+    color: white;
+        margin-top: 13px;
+        margin-bottom: 3px;
+    /* border: 2px solid blue; */
+    
+}
+#src{
+    margin-top: 8px;
+    height: 30px;
+    outline: 0;
+    color: white;
+}
+
+.icon{
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+.home{
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-left: 100px;
+}
+.login{
+    margin-top: 9px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+.reg{
+    margin-top: 9px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+.ani{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    overflow-x: scroll;
+    height: 500px;
+}
+.ani::-webkit-scrollbar{
+    display: none;
+
+}
+.b2{
+    background-color: black;
+    height: 600px;
+}
+.a1 img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 300px;
+    width: 200px; */
+    /* margin-left: 20px; */
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.a1,img.i1:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: 3s;
+    transform: scale(1.1);
+    border-radius: 40px;
+    height: 350px;
+    width: 250px;
+}
+
+.subs{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: blueviolet;
+    margin:5px;
+    margin-left: 25px;
+    padding: 8px;
+    font-size: 15px;
+    inline-size: 110px;
+}
+.subs img{
+    background-color: blueviolet;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* height: 40px;
+    width: 100px; */
+    border: 2px solid white;
+    inline-size: 100px;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.a1{
+}
