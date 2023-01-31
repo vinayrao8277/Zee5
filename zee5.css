@@ -8,9 +8,9 @@
 
 }
 .lnav{
-    font-size: 20px;
+    font-size: 18px;
     font-family: cursive;
-    width: 600px;
+    width: 500px;
     border: 2px solid #121212;
     display: flex;
     justify-content: space-between;
