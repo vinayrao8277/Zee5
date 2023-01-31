@@ -166,12 +166,12 @@ border-radius: 20px;
 
 .fb{
     border: 2px solid #121212;
-    background-color: rgb(51, 49, 49);
+    /* background-color: rgb(51, 49, 49); */
     /* border-radius: 30px; */
 }
-.fb:hover{
+/* .fb:hover{
     background-color: blue;
-}
+} */
 .mff{
     display: flex;
 }
